@@ -30,7 +30,7 @@ conf = ConnectionConfig(
     USE_CREDENTIALS=True,
     VALIDATE_CERTS=True
 )
-)
+
 
 # --- Mapa de Tipos e Modelo de Dados ---
 DTYPE_MAP = {
