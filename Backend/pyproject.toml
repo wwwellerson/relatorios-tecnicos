@@ -5,6 +5,8 @@ description = "API para geração de relatórios"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+setuptools = "^68.0.0"  # Fornece distutils
+python = "^3.9"
 fastapi = "^0.95.2"
 uvicorn = "^0.22.0"
 pandas = { version = "^2.0.2", extras = ["performance"] }
