@@ -3,10 +3,9 @@ services:
     name: relatorios-backend
     plan: free
     runtime: python
-    pythonVersion: "3.9.13"  # Versão compatível
+    pythonVersion: "3.9.13"
     
     buildCommand: |
-      echo "Instalando dependências..."
       cd backend && pip install -r requirements.txt
       
     startCommand: |
