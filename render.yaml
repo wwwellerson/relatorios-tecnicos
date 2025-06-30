@@ -3,7 +3,7 @@ services:
     name: relatorios-backend
     plan: free
     runtime: python
-    pythonVersion: "3.9.13"
+    pythonVersion: "3.9.13"  # ⚠️ Versão compatível
     
     buildCommand: |
       cd backend && \
