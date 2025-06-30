@@ -1,19 +1,17 @@
 [tool.poetry]
 name = "relatorios-backend"
-version = "1.0.0"
+version = "0.1.0"
 description = "API para geração de relatórios"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-setuptools = "^68.0.0"  # Fornece distutils
-python = "^3.9"
 fastapi = "^0.95.2"
 uvicorn = "^0.22.0"
-pandas = { version = "^2.0.2", extras = ["performance"] }
+pandas = "^2.0.2"
 matplotlib = "^3.7.1"
 fpdf2 = "^2.7.4"
 python-dotenv = "^1.0.0"
-fastapi-mail = { version = "^1.0.0", extras = ["aioredis"] }
+fastapi-mail = { version = "^1.0.0", extras = ["aioredis"] }  # ⚠️ Linha 9 - Verifique!
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
