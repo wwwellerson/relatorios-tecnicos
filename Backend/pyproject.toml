@@ -11,7 +11,7 @@ pandas = { version = "^2.0.2", extras = ["performance"] }
 matplotlib = "^3.7.1"
 fpdf2 = "^2.7.4"
 python-dotenv = "^1.0.0"
-fastapi-mail = "^0.4.1"
+fastapi-mail = { version = "^1.0.0", extras = ["aioredis"] }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
