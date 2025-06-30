@@ -1,6 +1,0 @@
-fastapi==0.95.2
-uvicorn==0.22.0
-pandas==2.0.2 --only-binary=:all:
-matplotlib==3.7.1 --only-binary=:all:
-fpdf2==2.7.4
-python-dotenv==1.0.0
