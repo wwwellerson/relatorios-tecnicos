@@ -3,11 +3,13 @@ services:
     name: relatorios-backend
     plan: free
     runtime: python
-
+    pythonVersion: "3.9.13"
+    
     buildCommand: |
-      cd Backend && \
-      poetry install --no-root --only main
+      cd backend && \
+      poetry config virtualenvs.create false && \
+      poetry install --no-interaction --no-root --only main
       
     startCommand: |
-      cd Backend && \
+      cd backend && \
       poetry run uvicorn main:app --host 0.0.0.0 --port $PORT
