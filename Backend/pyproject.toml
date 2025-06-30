@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "API para geração de relatórios"
 
 [tool.poetry.dependencies]
+python-multipart = "^0.0.6"
 python = "^3.9"
 fastapi = "^0.95.2"
 uvicorn = "^0.22.0"
