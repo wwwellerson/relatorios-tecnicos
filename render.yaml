@@ -3,8 +3,7 @@ services:
     name: relatorios-backend
     plan: free
     runtime: python
-    pythonVersion: "3.9.13"
-    
+
     buildCommand: |
       cd Backend && \
       poetry install --no-root --only main
