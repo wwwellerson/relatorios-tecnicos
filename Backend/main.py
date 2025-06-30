@@ -19,15 +19,17 @@ CSV_DATABASE = os.getenv("CSV_DATABASE", "clientes_motores.csv")
 
 # --- Configuração do Servidor de E-mail ---
 conf = ConnectionConfig(
-    MAIL_USERNAME=os.getenv("MAIL_USERNAME"),
-    MAIL_PASSWORD=os.getenv("MAIL_PASSWORD"),
-    MAIL_FROM=os.getenv("MAIL_FROM"),
+    
+    MAIL_USERNAME=os.getenv("MAIL_USERNAME", "default@email.com"),
+    MAIL_PASSWORD=os.getenv("MAIL_PASSWORD", "senha_padrao"),
+    MAIL_FROM=os.getenv("MAIL_FROM", "no-reply@default.com"),
+    MAIL_SERVER=os.getenv("MAIL_SERVER", "smtp.default.com"),
     MAIL_PORT=int(os.getenv("MAIL_PORT", 587)),
-    MAIL_SERVER=os.getenv("MAIL_SERVER"),
     MAIL_STARTTLS=True,
     MAIL_SSL_TLS=False,
     USE_CREDENTIALS=True,
     VALIDATE_CERTS=True
+)
 )
 
 # --- Mapa de Tipos e Modelo de Dados ---
