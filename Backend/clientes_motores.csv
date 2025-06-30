@@ -1,0 +1,4 @@
+id_cliente,nome_cliente,id_motor,descricao_motor,local_instalacao,corrente_nominal,potencia_cv,tipo_conexao,tensao_nominal_v,grupo_tarifario,telefone_contato,email_responsavel,data_da_instalacao,id_esp32,observacoes
+12345,Ricardo,f8c7ea8d,Sarandi,Agrop Sarandi,80.0,75.0,Trifásico,380.0,A4,55984662080,teste@api.com,2025-06-29,dgfssaf,Este é um teste direto na API.
+101,Fazenda Boa Esperança,a1b2c3d4,Bomba Poço 1,Casa de Bombas,15.5,10.0,Trifásico,380.0,A4,55888887777.0,contato@fazenda.com,2023-05-20,,Manutenção em dia.
+135790,Junior,edff45ee,Motor do civcão,Dompa,80.0,75.0,Trifásico,380.0,B1,55999998888,wwwellerson@gmail.com,641645,54fdgh45,fd

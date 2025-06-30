@@ -1,0 +1,6 @@
+backend/.env
+backend/uploads/
+backend/reports_generated/
+node_modules/
+__pycache__/
+*.pyc
