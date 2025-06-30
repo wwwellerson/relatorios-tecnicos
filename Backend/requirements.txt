@@ -1,7 +1,6 @@
-cd ..
-git clone https://github.com/wwwellerson/relatorios-tecnicos.git
-cd relatorios-tecnicos
-copy "C:\Users\Wellerson\Desktop\Sistema_Relatorios\backend\requirements.txt" backend/
-git add .
-git commit -m "Corrige requirements.txt"
-git push
+fastapi==0.95.2
+uvicorn==0.22.0
+pandas==2.0.2 --only-binary=:all:
+matplotlib==3.7.1 --only-binary=:all:
+fpdf2==2.7.4
+python-dotenv==1.0.0
